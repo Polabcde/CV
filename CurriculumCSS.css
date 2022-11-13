@@ -1,0 +1,89 @@
+body{
+	font-family:Verdana,Arial, serif;
+   background-color: rgb(255, 255, 255);
+   width: 610px;
+    height: 864px;
+	margin: 0 auto;
+   border:1px solid black;
+}
+
+h1{
+   font-family:Georgia, Times, serif;
+   font-size: 30px;
+}
+
+h2{
+   font-family:Georgia, Times, serif;
+   font-size: 15px;
+}
+
+p{
+   font-family:Verdana,Arial, serif;
+   font-size: 12px;
+}
+
+b{
+    font-family:Verdana,Arial, serif;
+   font-size: 12px;
+}
+
+ul {
+    font-family:Verdana,Arial, serif;
+    font-size: 12px;
+    padding-left: 12px;
+    padding-right: 0px;
+}
+
+
+#main-content{
+   display: flex;
+   flex-direction: row;
+   justify-content: center; 
+   align-items: stretch;
+   height: 864px;
+}
+
+nav{
+    padding-left: 20px;
+    padding-right: 20px;
+   flex-basis: 210px;
+   align-self: top; 
+   background-color: #F6DF0C;
+   padding-top: 20px;
+   align-items: stretch;
+}
+
+#CONTACTES ul{
+    padding-right: 10px;
+ }
+
+#CONTACTES li{
+   background-color: #EBA400;
+   list-style-type: none;
+   padding: 2px 5px 2px 5px;
+   margin-bottom: 10px;
+}
+
+#CONTACTES li:hover{
+   background-color: #F6780C;
+}
+
+
+article{
+    align-items: stretch;
+   flex-basis: 320px;
+    flex-shrink: 0; 
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+
+nav img{
+   width: 75%;
+   min-width:100px;
+   max-width:300px;
+   float: center;
+   margin-left: 25px;;
+}
+
+
